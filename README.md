@@ -1,8 +1,8 @@
-# Sample Chrome Plugin
+# Sample Chrome Extension
 
-This plugin displays chrome notifications whenever the api is called in sample_api/index.html.
+This extension displays chrome notifications whenever the api is called in sample_api/index.html.
 
-This plugin demonstrates how to inject content scripts into web page, get the api response and send it to chrome plugin.
+This extension demonstrates how to inject content scripts into web page, get the api response and send it to chrome plugin.
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ npm install -g serve
 ## How to run
 
 1. Enable developer mode in chrome extensions page.
-2. Load the sample_plugin by clicking 'Load Upacked Plugin' button.
+2. Load the sample_ext by clicking 'Load Upacked Plugin' button.
 3. Run static server
 ```
 $ cd sample_api
